@@ -265,15 +265,15 @@ const Info = () => {
                   />
                 </td>
                 <td className="border px-4 py-2">
-                  <button className="btn btn-ghost btn-xs" onClick={handleAddVillage}>Add</button>
+                  <button className="btn btn-primary btn-xs" onClick={handleAddVillage}>Add</button>
                 </td>
               </tr>
             </tbody>
           </table>
         </div>
-      </div>
-      <div className="mt-12 ml-4 ml-auto">
-        <button className="btn btn-primary" onClick={saveChanges}>Save Changes</button>
+        <div className="mt-4">
+          <button className="btn btn-primary" onClick={saveChanges}>Save Changes</button>
+        </div>
       </div>
     </div>
   );
